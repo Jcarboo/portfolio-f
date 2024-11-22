@@ -1,7 +1,6 @@
 import type { Config } from "tailwindcss";
-import { fontFamily } from "tailwindcss/defaultTheme";
 
-const config: Config = {
+export default {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,12 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      /* Put custom values / themes / classes here */
+      colors: {
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+      },
       fontFamily: {
-        sans: ["var(--font-inter)", ...fontFamily.sans],
+        perpetua: ['"Perpetua Titling MT"', 'serif'],
       },
     },
   },
   plugins: [],
-};
-export default config;
+} satisfies Config;
