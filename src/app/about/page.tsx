@@ -43,11 +43,7 @@ export default function About() {
             <div>
               <h1 className="font-perpetua text-4xl font-medium mb-4">A LOVER OF ALL THINGS CS.</h1>
               <p className="font-perpetua text-lg leading-relaxed">
-                I enjoy the thrill of taking on challenges, which flows into all my passions.
-                Undertaking difficult projects brings me immense joy, enabling me to set audacious
-                goals with a smile on my face. When I am not lounging in my room learning new skills,
-                you can find me on a nighttime stroll listening to music, reading fantasy, or
-                spending a disastrous amount of time at the gym.
+                {'I enjoy the thrill of taking on challenges, which flows into all my passions. Undertaking difficult projects brings me immense joy, enabling me to set audaciousgoals with a smile on my face. When I&apos’m not lounging in my room learning new skills,you can find me on a nighttime stroll listening to music, reading fantasy, orspending a disastrous amount of time at the gym.'}
               </p>
             </div>
           </div>
