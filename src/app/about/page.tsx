@@ -45,7 +45,7 @@ export default function About() {
               <p className="font-perpetua text-lg leading-relaxed">
                 I enjoy the thrill of taking on challenges, which flows into all my passions.
                 Undertaking difficult projects brings me immense joy, enabling me to set audacious
-                goals with a smile on my face. When I’m not lounging in my room learning new skills,
+                goals with a smile on my face. When I am not lounging in my room learning new skills,
                 you can find me on a nighttime stroll listening to music, reading fantasy, or
                 spending a disastrous amount of time at the gym.
               </p>

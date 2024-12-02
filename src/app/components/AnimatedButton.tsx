@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import styles from '@/app/styles/AnimatedButton.module.css';
 
 interface AnimatedButtonProps {

@@ -1,8 +1,8 @@
 import Navbar from '@/app/components/Navbar';
 import Hero from '@/app/components/Hero';
 import GoldRain from '@/app/components/GoldRain';
+import 'tailwindcss/tailwind.css';
 import '@/app/globals.css';
-import Link from 'next/link';
 
 export default function Home() {
   return (
